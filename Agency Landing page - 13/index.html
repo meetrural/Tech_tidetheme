@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechTide - Tailwind CSS Multipurpose Landing Templates</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/click.js"></script>
+  <script src="assets/js/slider.js"></script>
+  <script src="assets/js/submenu.js"></script>
+  <script src="assets/js/blog.js"></script>
+  <script src="assets/js/saying.js"></script>
+  <script src="assets/js/dropdown.js"></script>
+  <link rel="icon" type="image/x-icon" href="assets/images/4114.png">
+</head>
+<body class="font-gilroy">
+  <nav class="max-w-full h-auto flex justify-between items-center navbar">
+    <a href="" class="flex mx-6 md:mx-10 2xl:mx-40 items-center"><img class="h-auto w-11" src="assets/images/Frame.jpg" alt="Frame">
+    <h2 class="md:mb- py-2 text-2xl md:text-4xl text-black font-medium">TechTide</h2></a>
+    <div class="hidden 2xl:block">
+      <ul class="list-none flex text-black justify-center items-center gap-4 2xl:gap-8 text-base font-medium nav-bar">
+        <li class="home active relative group" id="home-menu">
+          <a href="#" class="nav-link flex items-center text-base font-medium arrow-icon">HOME <img src="assets/images/arrow-down.png" alt="arrow-down" class="ml-1"></a>
+          <ul id="home-submenu1" class="py-2 max-h-80 overflow-y-auto submenu absolute hidden bg-white shadow-md mt-1 left-0">
+            <li>
+              <a href="#" class="block px-4 py-2 font-medium">HOME 01</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 font-medium">HOME 02</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 font-medium">HOME 03</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 font-medium">HOME 04</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 font-medium">HOME 05</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 font-medium">HOME 06</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 font-medium">HOME 07</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 font-medium">HOME 08</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 font-medium">HOME 09</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 font-medium">HOME 10</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 font-medium">HOME 11</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 font-medium">HOME 12</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 font-medium">HOME 13</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 font-medium">HOME 14</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 font-medium">HOME 15</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 font-medium">HOME 16</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 font-medium">HOME 17</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 font-medium">HOME 18</a>
+            </li>
+          </ul>
+        </li>
+        <li class="about">
+          <a href="#about" class="nav-link">ABOUT US</a>
+        </li>
+        <li class="services">
+          <a href="#services" class="nav-link">SERVICES</a>
+        </li>
+        <li class="portfolio">
+          <a href="#portfolio" class="nav-link">PORTFOLIO</a>
+        </li>
+        <li class="price">
+          <a href="#price" class="nav-link">PRICING</a>
+        </li>
+        <li class="blog">
+          <a href="#blog" class="nav-link">BLOG</a>
+        </li>
+      </ul>
+    </div>
+    <div class="hidden 2xl:block mx-6 md:mx-10 2xl:mx-40 py-3 rounded cursor-pointer text-base font-semibold nav-bar">
+      <button class="rounded-lg py-3 px-11 text-gradient-to-b from-custom-red to-custom-orange text-red-500 font-semibold login btn-custom">Login</button> <button class="rounded-lg py-3 px-6 ml-2 text-white text-base font-semibold custom-gradient btn-custom">Get Started</button>
+    </div>
+    <div class="2xl:hidden block mx-6 md:mx-10 2xl:mx-40 nav-bar-first">
+      <a class="text-4xl text-black" href="#" id="hamburgerMenu">≡</a>
+    </div>
+    <div id="dropdownMenu" class="hidden">
+      <ul class="list-none text-black text-base font-medium p-4">
+        <li class="services">
+            <a href="#" class="nav-link block px-4 py-2">HOME</a>
+          </li>
+          <li><div class="border-me lg:hidden block"></div></li>
+      <li class="about">
+        <a href="#about" class="nav-link block px-4 py-2">ABOUT US</a>
+      </li>
+      <li><div class="border-me lg:hidden block"></div></li>
+      <li class="services">
+        <a href="#services" class="nav-link block px-4 py-2">SERVICES</a>
+      </li>
+      <li><div class="border-me lg:hidden block"></div></li>
+      <li class="portfolio">
+        <a href="#portfolio" class="nav-link block px-4 py-2">PORTFOLIO</a>
+      </li>
+      <li><div class="border-me lg:hidden block"></div></li>
+      <li class="price">
+        <a href="#price" class="nav-link block px-4 py-2">PRICING</a>
+      </li>
+      <li><div class="border-me lg:hidden block"></div></li>
+      <li class="blog">
+        <a href="#blog" class="nav-link block px-4 py-2">BLOG</a>
+      </li>
+      <li><div class="border-me lg:hidden block"></div></li>
+      </ul><div class="border-me lg:block hidden"></div>
+      <div class="mt-4 pl-7 pb-4">
+        <button class="rounded-md py-2 px-2 text-gradient-to-b from-custom-red to-custom-orange text-red-500 font-semibold login btn-custom text-">Login</button> <button class="rounded-md py-2 px-4 ml-2 text-white text-base font-semibold custom-gradient btn-custom">Get Started</button>
+      </div>
+    </div>
+  </nav>
+
+
+    <section class="md:h-screen pt-18 md:pt-52 lg:py-52 sm:flex  relative" id="home">
+        <img class="w-full h-full absolute top-0 left-0 object-cover" src="assets/images/bg.jpg" alt="">
+        <div class=" relative mx-6 md:mx-10 2xl:mx-40">
+            <div class="  grid grid-cols-1">
+                <div class="md:w-[50%] lg:w-full">
+                    <p class="lg:mt-4 py-6 "><img src="assets/images/Rectangle2.png" class="inline-block" alt=""><span
+                            class="text-sm md:text-base border-white/20 px-6 mt-6   text-white  bg-white bg-opacity-10 online items-center justify-center pad">Online
+                            Presence Via Interactive Websites</span></p>
+                    <h1 id="animated-heading"
+                        class=" text-base md:text-3xl lg:text-4xl xl:text-6xl  text-white  mt-6 font-semibold  animate-fade-in-out">
+                        Advance Your <br class="hidden lg:block"> Business Growth</h1>
+                    <p class="text-base max-w- md:max-w-none  md:mt-4 text-white font-medium lineheight">
+                        Enable startups and organizations in approaching larger audiences <br>by delivering engaging
+                        mobile apps</p>
+                    <div class="mt-14 flex float-left md:flex-row items-center ">
+                        <a href="#"
+                            class="custom-gradient text-base rounded-lg text-white py-3 px-11 md:mr-4 mb-4 md:mb-0 btn-custom font-semibold ">Learn
+                            More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+              
+    <div id="about">
+        <section class="my-20 relative mx-6 md:mx-10 2xl:mx-40">
+          <div class="mb-">
+            <div class="flex items-center mb-4">
+              <img src="assets/images/Ellipse%20round.png" alt="Ellipse%20round" class="mr-4">
+              <h3 class="absolute text-base font-semibold circle">Attributes</h3>
+            </div>
+            <h2 class="font-semibold features">Best <span class="features gradient-text">Features</span></h2>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 compat -mx-5">
+            <div class="text-center p-4 md:p-6 gap-8">
+              <div class="flex items-center border border-[#FFE5DB] border-opacity-100 h-20 built fullbox">
+                <img src="assets/images/Attributes/Group%2031.png" alt="Group%2031" class="with">
+                <p class="ml-2 text-sm sm:text-xl font-medium times">Fully Responsive</p>
+              </div>
+            </div>
+            <div class="text-center p-4 md:p-6 gap-2">
+              <div class="flex items-center border border-[#FFE5DB] border-opacity-100 h-20 built fullbox">
+                <img src="assets/images/Attributes/Group%20313.png" alt="Group%20313" class="with">
+                <p class="ml-2 text-sm sm:text-xl font-medium times">Browser Compatibility</p>
+              </div>
+            </div>
+            <div class="text-center p-4 md:p-6">
+              <div class="flex items-center border border-[#FFE5DB] border-opacity-100 h-20 built fullbox">
+                <img src="assets/images/Attributes/Group%20313%20(1).png" alt="Group%20313%20(1)" class="with">
+                <p class="ml-2 text-sm sm:text-xl font-medium times">Retina Ready</p>
+              </div>
+            </div>
+            <div class="text-center p-4 md:p-6">
+              <div class="flex items-center border border-[#FFE5DB] border-opacity-100 h-20 built fullbox">
+                <img src="assets/images/Attributes/Group%20313%20(2).png" alt="Group%20313%20(2)" class="with">
+                <p class="ml-2 text-sm sm:text-xl font-medium times">Built with WordPress</p>
+              </div>
+            </div>
+            <div class="text-center p-4 md:p-6">
+              <div class="flex items-center border border-[#FFE5DB] border-opacity-100 h-20 built fullbox">
+                <img src="assets/images/Attributes/Group%203m.png" alt="Group%203m" class="with">
+                <p class="ml-2 text-sm sm:text-xl font-medium times">Fast Loading Times</p>
+              </div>
+            </div>
+            <div class="text-center p-4 md:p-6">
+              <div class="flex items-center border border-[#FFE5DB] border-opacity-100 h-20 built fullbox">
+                <img src="assets/images/Attributes/Group%20314%20(2).png" alt="Group%20314%20(2)" class="with">
+                <p class="ml-2 text-sm sm:text-xl font-medium times">Clean/Lovely Design</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="spacing relative">
+          <div class="item mx-6 md:mx-10 2xl:mx-40">
+            <div class="flex justify-center items-center h-full 2xl:gap-48">
+              <div class="md:w-[50%] px-4 md:px-0 md:order-2 mx-6 2xl:mx-0 first">
+                <button class="md:mt-0 md:mb-0 py-2 px-3 w-full md:w-auto lg:w-32 h-10 text-base md:h-auto rounded-full font-medium login"><span class="gradient-text">Our History</span></button>
+                <div class="mt-5">
+                  <h3 class="font-semibold text-white mb-4 letus">Let Us <span class="tell">Tell You</span> a Short About<br>
+                  Our Journey</h3>
+                  <p class="text-sm md:text-base text-white mb-6 font-extralight Lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                  Loreaim Ipsum has been the industry's standard dummy.</p>
+                  <div class="flex flex-col gap-4">
+                    <div class="lg:flex flex items-center">
+                      <span class="text-green-500 mr-2"><img src="assets/images/Attributes/tick.png" alt="tick"></span>
+                      <p class="text-white font-semibold md:text-base text-sm">Love what we do</p>
+                    </div>
+                    <div class="lg:flex flex items-center">
+                      <span class="text-green-500 mr-2"><img src="assets/images/Attributes/tick.png" alt="tick"></span>
+                      <p class="2xl:text-base text-white font-semibold md:text-base text-sm">Motivation</p>
+                    </div>
+                    <div class="lg:flex flex items-center">
+                      <span class="text-green-500 mr-2"><img src="assets/images/Attributes/tick.png" alt="tick"></span>
+                      <p class="2xl:text-base text-white font-semibold md:text-base text-sm">Simplicity</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-8 md:mt-12">
+                  <button class="w-full md:w-auto h-12 md:h-auto rounded-md bg-gradient-to-r lg:w-48 lg:h-12 md:px-10 md:py-3 from-red-500 to-red-600 text-white text-base font-semibold custom-gradient btn-custom">Read More <span class="float-right"><img src="assets/images/Attributes/Arrow.png" alt="Arrow" class="md:block hidden"></span></button>
+                </div>
+              </div>
+              <div class="md:w-[50%] md:flex lg:flex hidden order-1 md:order-2 justify-center items-center"><img src="assets/images/Attributes/vrmee.png" alt="vrmee" class="md:max-w-[300px]"></div>
+              <div class="absolute bottom-0 right-40 2xl:block hidden"><img src="assets/images/Attributes/Group%20(1).png" alt="Decorative line" class="w-full h-auto"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="mx-6 md:mx-10 2xl:mx-40 spacing" id="services">
+        <div class="mb-">
+          <div class="flex items-center mb-4">
+            <img src="assets/images/Ellipse%20round.png" alt="Ellipse%20round" class="mr-4">
+            <h3 class="absolute text-base font-semibold circle">Exclusive Service</h3>
+          </div>
+          <h2 class="text-3xl md:text- font-semibold features">Explore Our Creative <span class="gradient-text">Service</span></h2>
+        </div><a href="#" class="text-black underline hover:no-underline block mt-2 lg:float-right md:mt-0 md:mr-0 font-semibold md:text-xl text-base">View all Service</a>
+        <p class="text-sm mt-4 md:mt-2 leading-normal md:leading-relaxed text-gray-600 md:text-base font-normal paragraph">Design Season is a collaboration between Leicester’s creative hub LCB<br>
+        based in the city’s cultural quarter and designers and design<br>
+        businesses all over the city & county.</p>
+        <div class="flex flex-col mt-10 md:mt-0 lg:mt-0 w-full">
+          <div class="flex flex-col w-full">
+            <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-black compat">Marketing Strategy</h3>
+            <p class="text-sm md:text-base lg:text-base font-normal mt-4 paragraph">We help our clients make significant and<br class="md:block lg:hidden hidden">
+            lasting improvements to their<br class="2xl:hidden lg:block hidden">
+            performance and realize<br class="md:inline lg:hidden">
+            their most important goals</p>
+            <div class="relative w-full mt-4">
+              <div class="border-first"></div>
+              <div class="">
+                <a href=""><img src="assets/images/Servicess/Group%205m.png" alt="Group 5 Image" class="absolute right-0 top-1/2 transform -translate-y-24 sm:block hidden servicearrow-hover"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col mt-0 lg:mt-0 w-full">
+          <div class="flex flex-col w-full">
+            <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-black compat">Mobile & App Design</h3>
+            <p class="text-sm md:text-base lg:text-base font-normal mt-4 paragraph">We help our clients make significant and<br class="md:block lg:hidden hidden">
+            lasting improvements to their<br class="2xl:hidden lg:block hidden">
+            performance and realize<br class="md:inline lg:hidden">
+            their most important goals</p>
+            <div class="relative w-full mt-4">
+              <div class="border-first"></div>
+              <div class="">
+                <a href=""><img src="assets/images/Servicess/Group%205m.png" alt="Group 5 Image" class="absolute right-0 top-1/2 transform -translate-y-24 sm:block hidden servicearrow-hover"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col mt-0 lg:mt-0 w-full">
+          <div class="flex flex-col w-full">
+            <h3 class="text-lg md:text-xl lg:text-2xl font-semibold text-black compat">3D Modeling & Motion</h3>
+            <p class="text-sm md:text-base lg:text-base font-normal mt-4 paragraph">We help our clients make significant and<br class="md:block lg:hidden hidden">
+            lasting improvements to their<br class="2xl:hidden lg:block hidden">
+            performance and realize<br class="md:inline lg:hidden">
+            their most important goals</p>
+            <div class="relative w-full mt-4">
+              <div class="border-first"></div>
+              <div class="">
+                <a href=""><img src="assets/images/Servicess/Group%205m.png" alt="Group 5 Image" class="absolute right-0 top-1/2 transform -translate-y-24 sm:block hidden servicearrow-hover"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mx-6 md:mx-10 2xl:mx-40 py-16  second">
+        <div class="mb-">
+          <div class="flex items-center mb-4">
+            <img src="assets/images/Ellipse%20round.png" alt="Ellipse%20round" class="mr-4">
+            <h3 class="absolute text-blue-600 text-base font-semibold circle">Work Process</h3>
+          </div>
+          <h2 class="md:text- font-semibold features">Our Working <span class="gradient-text">Process</span></h2>
+          <div class="relative mt-12 w-full">
+            <img src="assets/images/Workprocess/Group%207.png" alt="Group%207" class="absolute hidden 2xl:block spacing w-full">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div class="text-center">
+                <div class="relative inline-block mb-4"><img src="assets/images/Workprocess/Group%2016.png" alt="Group%2016" class="mx-0"></div>
+                <h3 class="md:text-2xl font-semibold mb-2 text-lg">Design</h3>
+                <p class="md:text-base font-normal sit text-sm">Design a sleek, modern input field, frameworks<br>
+                for service summaries.</p>
+              </div>
+              <div class="text-center 2xl:mt-11">
+                <div class="relative inline-block mb-4"><img src="assets/images/Workprocess/Group%2017.png" alt="Group%2017" class="mx-0"></div>
+                <h3 class="md:text-2xl font-semibold mb-2 text-lg">Strategy</h3>
+                <p class="md:text-base font-normal sit text-sm">Highlights core objectives, actionable steps, and<br>
+                all aligned with overarching business.</p>
+              </div>
+              <div class="text-center mt-auto">
+                <div class="relative inline-block mb-4"><img src="assets/images/Workprocess/Group%2018%20(1).png" alt="Group%2018%20(1)" class="mx-0"></div>
+                <h3 class="md:text-2xl font-semibold mb-2 text-lg">Development</h3>
+                <p class="md:text-base font-normal sit text-sm">Outlines progress milestones, and key challenges,<br>
+                and alignment with project goals.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mx-6 md:mx-10 2xl:mx-40 max-w-full flex flex-col font-semibold wedo" id="portfolio">
+        <div class="mb-">
+          <div class="flex items-center mb-4">
+            <img src="assets/images/Ellipse%20round.png" alt="Ellipse%20round" class="mr-4">
+            <h3 class="absolute text-base font-semibold circle">We Do Awesome Work</h3>
+          </div>
+          <h2 class="text-3xl md:text- font-semibold features">We Do Awesome <span class="gradient-text">Work</span></h2>
+        </div>
+        <div class="container mt-11 font-semibold max-w-full">
+          <div class="overflow-x-auto pb-4">
+            <ul class="filters flex flex-nowrap gap-4 sm:gap-6 md:gap-8 min-w-max">
+              <li class="active filter seo rounded btn-custom hover:text-white hoverbg cursor-pointer all" data-filter="All"><span class="block px-4 py-2 md:px-10 sm:py-3 rounded font-semibold text-sm sm:text-base">All</span></li>
+              <li class="filter hover:bg-black rounded btn-custom hover:text-white hoverbg cursor-pointer all" data-filter="SEO"><span class="block px-4 py-2 md:px-10 sm:py-3 rounded text-sm sm:text-base text-[#9a9a9a] font-semibold">SEO</span></li>
+              <li class="filter rounded btn-custom hover:text-white hoverbg cursor-pointer all" data-filter="Webdesign"><span class="block px-4 py-2 md:px-10 sm:py-3 rounded text-sm sm:text-base text-[#9a9a9a] font-semibold">Webdesign</span></li>
+              <li class="filter rounded btn-custom hover:text-white hoverbg cursor-pointer all" data-filter="Work"><span class="block px-4 py-2 md:px-10 sm:py-3 rounded text-sm sm:text-base text-[#9a9a9a] font-semibold">Work</span></li>
+              <li class="filter rounded btn-custom hover:text-white hoverbg cursor-pointer all" data-filter="Wordpress"><span class="block px-4 py-2 md:px-10 sm:py-3 rounded text-sm sm:text-base text-[#9a9a9a] font-semibold">Wordpress</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 2xl:grid-cols-4 gap-6 mt-8">
+          <div class="w-full card" data-category="All SEO Wordpress">
+            <div class="img-hover-zoom"><img src="assets/images/Work/Rectangle%208.png" alt="Image 1" class="w-full seowebsite"></div>
+            <div class="mt-4">
+              <p class="font-semibold affliate text-sm md:text-base">Affiliate</p>
+              <h3 class="font-semibold affliates md:text-2xl text-lg">SEO Website</h3>
+              <div class="servicearrow-hover">
+                <a href=""><img src="assets/images/Work/Group%2050.png" alt="Icon" class="float-right group1"></a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full card" data-category="All Webdesign">
+            <div class="img-hover-zoom"><img src="assets/images/Work/Rectangle%209%20(1).png" alt="Image 1" class="w-full seowebsite"></div>
+            <div style="margin-top: 16px;">
+              <p class="font-semibold affliate text-sm md:text-base">Web</p>
+              <h3 class="font-semibold affliates md:text-2xl text-lg">Webdesign</h3>
+              <div class="servicearrow-hover">
+                <a href=""><img src="assets/images/Work/Group%2050.png" alt="Icon" class="float-right group1"></a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full card" data-category="All Work Wordpress">
+            <div class="img-hover-zoom"><img src="assets/images/Work/Rectangle%2010%20(1).png" alt="Image 1" class="w-full seowebsite"></div>
+            <div style="margin-top: 16px;">
+              <p class="font-semibold affliate text-sm md:text-base">Work</p>
+              <h3 class="font-semibold affliates md:text-2xl text-lg">All Work</h3>
+              <div class="servicearrow-hover">
+                <a href=""><img src="assets/images/Work/Group%2050.png" alt="Icon" class="float-right group1"></a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full card" data-category="All Wordpress">
+            <div class="img-hover-zoom"><img src="assets/images/Work/Rectangle%2011%20(1).png" alt="Image 1" class="w-full seowebsite"></div>
+            <div style="margin-top: 16px;">
+              <p class="font-semibold affliate text-sm md:text-base">SEO</p>
+              <h3 class="font-semibold affliates md:text-2xl text-lg">SEO Website</h3>
+              <div class="servicearrow-hover">
+                <a href=""><img src="assets/images/Work/Group%2050.png" alt="Icon" class="float-right group1"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mx-6 md:mx-10 2xl:mx-40 spacing" id="price">
+        <div class="mb-">
+          <div class="flex items-center mb-4">
+            <img src="assets/images/Ellipse%20round.png" alt="Ellipse%20round" class="mr-4">
+            <h3 class="absolute text-base font-semibold circle">Pricing</h3>
+          </div>
+          <h2 class="text-3xl md:text- font-semibold features">Choose your <span class="gradient-text">Plan</span></h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-6 compat">
+          <div class="overflow-hidden shadows bg-white individual">
+            <div class="sm:p-6 text-black text-center">
+              <h4 class="text-base mt- font-semibold individuals">Individual</h4>
+              <h4 class="text-3xl font-medium mt-2 prise">Start-up</h4>
+              <div class="mt-6">
+                <div class="border-one"></div>
+              </div>
+              <p class="font-semibold text-red-500 mt-10 md:text-6xl text-5xl">$19<span class="text-black text-lg md:text-xl">/Weekly</span></p>
+              <div class="mt-10 gap-4 2xl:text-xl sm:text-sm md:text-base text-xs">
+                <div class="mt-4">
+                  <div class="flex items-center mb-2">
+                    <img src="assets/images/Plan/tick.png" class="mr-2" alt="tick">
+                    <p class="font-medium paragraph">Business <span class="sm:inline-block hidden">& Finance</span> Analysis</p>
+                  </div>
+                  <div class="flex items-center mb-2">
+                    <img src="assets/images/Plan/tick.png" class="mr-2" alt="tick">
+                    <p class="font-medium paragraph">SEO Optimization</p>
+                  </div>
+                  <div class="flex items-center mb-2">
+                    <img src="assets/images/Plan/tick.png" class="mr-2" alt="tick">
+                    <p class="font-medium paragraph">Management <span class="sm:inline-block hidden">& Marketing</span></p>
+                  </div>
+                  <div class="flex items-center mb-2">
+                    <img src="assets/images/Plan/tick.png" class="mr-2" alt="tick">
+                    <p class="font-medium paragraph">24/7 Customer Support</p>
+                  </div>
+                  <div class="mt-6">
+                    <div class="border-one"></div>
+                  </div>
+                </div>   
+              </div><div  class="text-center mt-6 flex items-center justify-center bg-opacity-100 rounded-md md:px-11 py-3 read btn-custom cursor-pointer">
+              <a href="#" class="font-semibold gradient-text">Read More <img src="assets/images/Plan/Arrow%20-%20Right.png" class="ml-3 mt-1 hidden md:block float-right arrow" alt="arrow"></a></div>
+            </div>
+          </div>
+          <div class="overflow-hidden shadows bg-white individual">
+            <div class="sm:p-6 text-black text-center">
+              <h4 class="text-base mt- font-semibold individuals">Individual</h4>
+              <h4 class="text-3xl font-medium mt-2 prise">Professional</h4>
+              <div class="mt-6">
+                <div class="border-one"></div>
+              </div>
+              <p class="font-semibold text-red-500 mt-10 md:text-6xl text-5xl">$49<span class="text-black text-lg md:text-xl">/Weekly</span></p>
+              <div class="mt-10 gap-4 2xl:text-xl sm:text-sm md:text-base text-xs">
+                <div class="mt-4">
+                  <div class="flex items-center mb-2">
+                    <img src="assets/images/Plan/tick.png" class="mr-2" alt="tick">
+                    <p class="font-medium paragraph">Business <span class="sm:inline-block hidden">& Finance</span> Analysis</p>
+                  </div>
+                  <div class="flex items-center mb-2">
+                    <img src="assets/images/Plan/tick.png" class="mr-2" alt="tick">
+                    <p class="font-medium paragraph">SEO Optimization</p>
+                  </div>
+                  <div class="flex items-center mb-2">
+                    <img src="assets/images/Plan/tick.png" class="mr-2" alt="tick">
+                    <p class="font-medium paragraph">Management <span class="sm:inline-block hidden">& Marketing</span></p>
+                  </div>
+                  <div class="flex items-center mb-2">
+                    <img src="assets/images/Plan/tick.png" class="mr-2" alt="tick">
+                    <p class="font-medium paragraph">24/7 Customer Support</p>
+                  </div>
+                  <div class="mt-6">
+                    <div class="border-one"></div>
+                  </div>
+                </div>
+              </div><div  class="text-center mt-6 flex items-center justify-center bg-opacity-100 rounded-md md:px-11 py-3 read btn-custom cursor-pointer">
+              <a href="#" class="font-semibold gradient-text">Read More <img src="assets/images/Plan/Arrow%20-%20Right.png" class="ml-3 mt-1 hidden md:block float-right arrow" alt="arrow"></a></div>
+            </div>
+          </div>
+          <div class="overflow-hidden shadows bg-white individual">
+            <div class="sm:p-6 text-black text-center">
+              <h4 class="text-base mt- font-semibold individuals">Individual</h4>
+              <h4 class="text-3xl font-medium mt-2 prise">Enterprise</h4>
+              <div class="mt-6">
+                <div class="border-one"></div>
+              </div>
+              <p class="font-semibold text-red-500 mt-10 md:text-6xl text-5xl">$99<span class="text-black text-lg md:text-xl">/Weekly</span></p>
+              <div class="mt-10 gap-4 2xl:text-xl sm:text-sm md:text-base text-xs">
+                <div class="mt-4">
+                  <div class="flex items-center mb-2">
+                    <img src="assets/images/Plan/tick.png" class="mr-2" alt="tick">
+                    <p class="font-medium paragraph">Business <span class="sm:inline-block hidden">& Finance</span> Analysis</p>
+                  </div>
+                  <div class="flex items-center mb-2">
+                    <img src="assets/images/Plan/tick.png" class="mr-2" alt="tick">
+                    <p class="font-medium paragraph">SEO Optimization</p>
+                  </div>
+                  <div class="flex items-center mb-2">
+                    <img src="assets/images/Plan/tick.png" class="mr-2" alt="tick">
+                    <p class="font-medium paragraph">Management <span class="sm:inline-block hidden">& Marketing</span></p>
+                  </div>
+                  <div class="flex items-center mb-2">
+                    <img src="assets/images/Plan/tick.png" class="mr-2" alt="tick">
+                    <p class="font-medium paragraph">24/7 Customer Support</p>
+                  </div>
+                  <div class="mt-6">
+                    <div class="border-one"></div>
+                  </div>
+                </div>
+              </div><div  class="text-center mt-6 flex items-center justify-center bg-opacity-100 rounded-md md:px-11 py-3 read btn-custom cursor-pointer">
+              <a href="#" class="font-semibold gradient-text">Read More <img src="assets/images/Plan/Arrow%20-%20Right.png" class="ml-3 mt-1 hidden md:block float-right arrow" alt="arrow"></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gap- mx-6 md:mx-10 2xl:mx-40 spacing">
+        <div class="mb-">
+          <div class="flex items-center mb-4">
+            <img src="assets/images/Ellipse%20round.png" alt="Ellipse%20round" class="mr-4">
+            <h3 class="absolute text-base font-semibold circle">Team</h3>
+          </div>
+          <h2 class="text-3xl md:text- font-semibold features">Meet Our Expert <span class="gradient-text">Team</span></h2>
+          <div class="justify-end mb- lg:flex hidden">
+            <button class="rotate-left servicearrow-hover-buttton servicearrow-hover-buttton mt-4"><img src="assets/images/Team/Group%2052.png" alt="Group%2052" class="mr-4 w-8 h-8"></button> <button class="servicearrow-hover rotate-right mt-4"><img src="assets/images/Team/Group%2050.png" alt="Group%2050" class="w-8 h-8"></button>
+          </div>
+          <div id="teamContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-8 hero team-container">
+            <div class="container-first">
+              <div class="gap-3 team-member">
+                <div class="img-hover-zoom w-full imgoverlayout"><img src="assets/images/Team/Ellipse%2013.png" alt="Ellipse%2013" class="w-full"></div>
+                <div class="w-full h-auto gap-6">
+                    <div class="guy">
+                  <h3 class="w-full h-full md:text-2xl font-semibold mt-3  affliates text-xl">Guy Hawkins</h3>
+                  <p class="w-auto h-full text-base md:ml-9 mt-2 ml-7 font-normal individuals">Developer</p>
+                </div>
+                  <div class="flex mt-6 gap-4 team2">
+                    <div>
+                      <a href="#"><img src="assets/images/Team/VRmeei.png" alt="VRmeei"></a>
+                    </div>
+                    <div>
+                      <a href="#"><img src="assets/images/Team/Group.png" alt="Group"></a>
+                    </div>
+                    <div>
+                      <a href="#"><img src="assets/images/Team/vrmeeio.png" alt="vrmeeio"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-first">
+              <div class="gap-3 team-member">
+                <div class="img-hover-zoom w-full imgoverlayout"><img src="assets/images/Team/Ellipse%2015.png" alt="Ellipse%2015" class="w-full"></div>
+                <div class="w-full h-auto gap-6">
+                    <div class="guy1 affliates">
+                        <h3 class="md:text-2xl font-semibold mt-3 text-left  text-xl">Leslie Alexander</h3>
+                        <p class="font-normal text-base text-center mt-2 manager">Project Manager</p>
+                      </div>
+                  <div class="flex mt-6 gap-4 team2">
+                    <div>
+                      <a href="#"><img src="assets/images/Team/VRmeei.png" alt="VRmeei"></a>
+                    </div>
+                    <div>
+                      <a href="#"><img src="assets/images/Team/Group.png" alt="Group"></a>
+                    </div>
+                    <div>
+                      <a href="#"><img src="assets/images/Team/vrmeeio.png" alt="vrmeeio"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-first">
+              <div class="gap-3 team-member">
+                <div class="img-hover-zoom w-full imgoverlayout"><img src="assets/images/Team/Ellipse%2014.png" alt="Ellipse%2014" class="w-full"></div>
+                <div class="w-full h-auto gap-6">
+                    <div class="coy">
+                  <h3 class="md:text-2xl font-semibold mt-3 text-left  affliates text-xl">Arlene McCoy</h3>
+                  <p class="font-normal text-base text-center mt-2 designer">UI/UX Designer</p>
+                </div>
+                  <div class="flex mt-6 gap-4 team2">
+                    <div>
+                      <a href="#"><img src="assets/images/Team/VRmeei.png" alt="VRmeei"></a>
+                    </div>
+                    <div>
+                      <a href="#"><img src="assets/images/Team/Group.png" alt="Group"></a>
+                    </div>
+                    <div>
+                      <a href="#"><img src="assets/images/Team/vrmeeio.png" alt="vrmeeio"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-first">
+              <div class="gap-3 team-member">
+                <div class="img-hover-zoom w-full imgoverlayout"><img src="assets/images/Team/Ellipse%2016.png" alt="Ellipse%2016" class="w-full"></div>
+                <div class="w-full h-auto gap-6">
+                    <div class="guy-first">
+                  <h3 class="md:text-2xl font-semibold mt-3 text-left  affliates text-xl">Bessie Cooper</h3>
+                  <p class="font-normal text-base text-center mt-2 manager1">Project Manager</p>
+                </div>
+                  <div class="flex mt-6 gap-4 team4">
+                    <div>
+                      <a href="#"><img src="assets/images/Team/VRmeei.png" alt="VRmeei"></a>
+                    </div>
+                    <div>
+                      <a href="#"><img src="assets/images/Team/Group.png" alt="Group"></a>
+                    </div>
+                    <div>
+                      <a href="#"><img src="assets/images/Team/vrmeeio.png" alt="vrmeeio"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mx-6 md:mx-10 2xl:mx-40 spacing">
+        <div class="mb-">
+          <div class="flex items-center mb-4">
+            <img src="assets/images/Ellipse%20round.png" alt="Ellipse%20round" class="mr-4">
+            <h3 class="absolute text-base font-semibold circle">Testimonial</h3>
+          </div>
+          <h2 class="text-3xl md:text- font-semibold features">What They’re <span class="gradient-text">Saying?</span></h2>
+        </div>
+        <div class="lg:flex flex-col-reverse md:flex-row mt- md:gap-8 sayings">
+          <div class="2xl:w-1/2 w-full gap-8" id="team-members">
+            <div class="flex flex-col gap- card-container1">
+              <div class="flex gap-6 hover:border rounded-lg hover:shadow-md hover:bg-white p-5 box" data-index="0">
+                <img src="assets/images/Testimonial/Ellipse%2010.png" alt="Avatar" class="w-24 h-24">
+                <div class="flex flex-col mt-5 gap-2">
+                  <h3 class="md:text-2xl font-semibold affliates text-lg">Guy Hawkins</h3>
+                  <p class="md:text-base font-normal individuals text-sm">Developer</p>
+                </div>
+              </div>
+              <div class="flex gap-6 hover:border rounded-lg hover:shadow-md hover:bg-white p-5 box" data-index="1">
+                <img src="assets/images/Testimonial/Ellipse%2011.png" alt="Avatar" class="w-24 h-24">
+                <div class="flex flex-col mt-5 gap-2">
+                  <h3 class="md:text-2xl font-semibold affliates text-lg">Leslie Alexander</h3>
+                  <p class="md:text-base font-normal individuals text-sm">Project Manager</p>
+                </div>
+              </div>
+              <div class="flex gap-6 hover:border rounded-lg hover:shadow-md hover:bg-white p-5 box" data-index="2">
+                <img src="assets/images/Testimonial/Ellipse%2012.png" alt="Avatar" class="w-24 h-24">
+                <div class="flex flex-col mt-5 gap-2">
+                  <h3 class="md:text-2xl font-semibold affliates taext-lg">Arlene McCoy</h3>
+                  <p class="md:text-base font-normal individuals text-sm">UI/UX Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="2xl:w-1/2 md:w-full gap-8 2xl:mt-16 mt-6 card-container1" id="content">
+            <div class="flex flex-col star gap-8">
+              <div class="flex flex-col gap-3">
+                <h3 id="experience" class="md:text-2xl font-semibold affliates text-xl">The Experience Was Amazing!</h3>
+                <div class="flex gap-2" id="stars">
+                  <div class="flex gap-2"><img src="assets/images/Testimonial/Star%201.png" alt="Star" class="w-6 h-6"> <img src="assets/images/Testimonial/Star%201.png" alt="Star" class="w-6 h-6"> <img src="assets/images/Testimonial/Star%201.png" alt="Star" class="w-6 h-6"> <img src="assets/images/Testimonial/Star%201.png" alt="Star" class="w-6 h-6"> <img src="assets/images/Testimonial/Star%201.png" alt="Star" class="w-6 h-6"></div>
+                </div>
+              </div>
+              <div><img src="assets/images/Testimonial/Line%202.png" alt="Divider" class="w-full"></div>
+              <div class="flex flex-col gap-8 para">
+                <p id="review1" class="font-normal survive">It has survived not only five centuries , but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software.</p>
+                <p id="review2" class="font-normal survive">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mx-6 md:mx-10 2xl:mx-40 px- spacing" id="blog">
+        <div class="mb-">
+          <div class="flex items-center mb-4">
+            <img src="assets/images/Ellipse%20round.png" alt="Ellipse%20round" class="mr-4">
+            <h3 class="absolute text-base font-semibold circle">Blog</h3>
+          </div>
+          <h2 class="text-3xl md:text- font-semibold features">Read Our Latest <span class="gradient-text">News</span></h2>
+          <div class="justify-end mb-4 lg:flex hidden">
+            <button id="prevButton" class="arrow-button mr-4 mt-4 servicearrow-hover-buttton"><img src="assets/images/Team/Group%2052.png" alt="Group%2052" class="w-8 h-8 mb-"></button> <button id="nextButton" class="servicearrow-hover mt-4 arrow-button"><img src="assets/images/Team/Group%2050.png" alt="Group%2050" class="w-8 h-8 mb-"></button>
+          </div>
+        </div>
+        <div id="cardContainer" class="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 lg:gap-16 gap-4">
+          <div class="relative pb-64 2xl:mb-16 md:mb-0 card-container lg:mt-0 mt-9">
+            <img src="assets/images/Blog/Rectangle%204.png" alt="Rectangle%204" class="rounded-lg w-full h-64 object-cover">
+            <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[90%] bg-white rounded-lg shadow-lg p-6 mb-10 agency">
+              <p class="text-sm md:text-base font-medium mb-2 nov">11 November 2023</p>
+              <h3 class="text-lg md:text-xl font-semibold mb-2 affliates">The Powerful Look For Best In 2023</h3>
+              <p class="text-gray-600 text-sm md:text-base font-normal mb-4 para">Our team of digital marketing experts who are passionate about helping businesses succeed online...</p><a href="#" class="inline-block px-4 py-2 md:px-6 md:py-3 text-white text-sm md:text-base font-semibold rounded-lg more btn-custom" id="button1">Learn More</a>
+            </div>
+          </div>
+          <div class="relative pb-64 2xl:mb-16 md:mb-0 card-container">
+            <img src="assets/images/Blog/Rectangle%205.png" alt="Rectangle%205" class="rounded-lg w-full h-64 object-cover">
+            <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[90%] bg-white rounded-lg shadow-lg p-6 mb-10 agency">
+              <p class="text-sm md:text-base font-medium mb-2 nov">11 November 2023</p>
+              <h3 class="text-lg md:text-xl font-semibold mb-2 affliates">The Powerful Look For Best In 2023</h3>
+              <p class="text-gray-600 text-sm md:text-base font-normal mb-4 para">Our team of digital marketing experts who are passionate about helping businesses succeed online...</p><a href="#" class="inline-block px-4 py-2 md:px-6 md:py-3 text-white text-sm md:text-base font-semibold rounded-lg more  btn-custom">Learn More</a>
+            </div>
+          </div>
+          <div class="relative pb-64 lg:mb-16 md:mb-0 card-container">
+            <img src="assets/images/Blog/Rectangle%206.png" alt="Rectangle%206" class="rounded-lg w-full h-64 object-cover">
+            <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[90%] bg-white rounded-lg shadow-lg p-6 mb-10 agency">
+              <p class="text-sm md:text-base font-medium mb-2 nov">11 November 2023</p>
+              <h3 class="text-lg md:text-xl font-semibold mb-2 affliates">The Powerful Look For Best In 2023</h3>
+              <p class="text-gray-600 text-sm md:text-base font-normal mb-4 para">Our team of digital marketing experts who are passionate about helping businesses succeed online...</p><a href="#" class="inline-block px-4 py-2 md:px-6 md:py-3 text-white text-sm md:text-base font-semibold rounded-lg more  btn-custom">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="text-white pt-40 pb-16 px-6 md:px-10 2xl:px-40 footer">
+        <div class="lg:mx-32 rounded-md sm:rounded-3xl shadow-lg -mt-60 mb-16 px-10 py-6 custom-gradient mx-0">
+          <div class="flex flex-col md:flex-row justify-between items-center">
+            <div>
+              <h3 class="md:text-2xl font-semibold mb-2 text-lg">Try TechTide Today</h3>
+              <div class="flex flex-wrap gap-4 font-medium">
+                <div class="flex items-center gap-1">
+                  <img src="assets/images/iam.png" alt="iam" class="w-6 h-6"> <span class="md:text-base font-medium text-sm">Love what we do</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <img src="assets/images/iam.png" alt="iam" class="w-6 h-6"> <span class="md:text-base font-medium text-sm">Motivation</span>
+                </div>
+                <div class="flex items-center gap-1">
+                  <img src="assets/images/iam.png" alt="iam" class="w-6 h-6"> <span class="md:text-base font-medium text-sm">Simplicity</span>
+                </div>
+              </div>
+            </div>
+            <div class="mt-6 md:mt-0 flex gap-4 text-red-400 2xl:text-base text-sm">
+              <button class="bg-white 2xl:px-11 2xl:py-3 px-6 py-3 rounded-lg font-semibold btn-custom">Login</button> <button class="bg-white text-red-400 px-6 py-3 rounded-lg font-semibold btn-custom">Get Started</button>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-4 mb-16 justify-between 2xl:flex md:-mt-4">
+          <div class="gap-7 lg:mb-36 sm:mb-0 mb-14">
+            <div class="flex items-center gap-2 mb-6">
+              <img src="assets/images/Frame%20(1).png" alt="Frame%20(1)" class="w-10 h-10">
+              <h2 class="text-4xl font-medium">TechTide</h2>
+            </div>
+            <p class="font-medium md:text-xl mb-6 trusted text-sm">We have been most trusted<br class="lg:block 2xl:hidden hidden">
+            web design<br class="md:block hidden">
+            agency since 25+ years.</p>
+            <div class="flex" style="gap: 10px;">
+              <div class="facebooks-hover">
+                <a href=""><img src="assets/images/Group%20i.png" alt="Group%20i" class="w-8 h-8"></a>
+              </div>
+              <div class="instagrams-hover">
+                <a href=""><img src="assets/images/Group%20f.png" alt="Group%20f" class="w-8 h-8"></a>
+              </div>
+              <div class="twitters-hover">
+                <a href=""><img src="assets/images/Group%20t.png" alt="Group%20t" class="w-8 h-8"></a>
+              </div>
+              <div class="linkdns-hover">
+                <a href=""><img src="assets/images/Group%20l.png" alt="Group%20l" class="w-8 h-8"></a>
+              </div>
+            </div>
+          </div>
+          <div class="sm:mb-0 mb-14">
+            <h3 class="md:text-2xl font-semibold mb-4 text-lg">Our Pages</h3>
+            <div class="grid space-y-2 font-medium md:text-base trusted text-sm">
+              <a href="#" class="pages">Home</a><a href="#about" class="pages">About</a><a href="#services" class="pages">Service</a><a href="#price" class="pages">Pricing</a><a href="#portfolio" class="pages">Portfolio</a><a href="#blog" class="pages">Blog</a>
+            </div>
+          </div>
+          <div class="md:mb-36 lg:mb-0 mb-14">
+            <h3 class="md:text-2xl font-semibold mb-4 text-lg">Help Center</h3>
+            <div class="grid space-y-2 text-[#BDBDBD] font-medium md:text-base trusted text-sm">
+              <a href="#" class="pages">Accounting</a><a href="#" class="pages">Billing</a><a href="#" class="pages">General Question</a>
+            </div>
+          </div>
+          <div class="sm:mb-0 mb-14">
+            <h3 class="md:text-2xl font-semibold mb-4 text-lg">Follow us</h3>
+            <div class="space-y-4 font-medium md:text-base trusted text-sm">
+              <div class="flex items-center gap-4 phone-number" onclick="revealNumber()">
+                <img src="assets/images/Call.png" alt="Call Icon" class="w-12 h-12"> <span id="phone-number">(603) 555-0123</span>
+              </div>
+              <div class="flex items-center gap-4 email-link cursor-pointer" onclick="sendEmail()">
+                <img src="assets/images/Email.png" alt="Email Icon" class="w-12 h-12"> <span id="email-address">Sales: @example.com</span>
+              </div><a href="" class="flex items-center gap-4">
+              <div class="flex items-center gap-4">
+                <img src="assets/images/Gps.png" alt="Gps" class="w-12 h-12"> <span class="text-[#BDBDBD]">4140 Parker Rd. Allentown, New Mexico 31136</span>
+              </div></a>
+            </div>
+          </div>
+          <div class="w-full md:w-auto">
+            <h3 class="md:text-2xl font-semibold text-white mb-4 text-lg">Our Branch</h3>
+            <ul class="space-y-2 md:space-y-3 font-medium text-base grid trusted">
+              <li class="pages text-sm md:text-base">Melbourne</li><li class="pages text-sm md:text-base">London</li><li class="pages text-sm md:text-base">New York</li><li class="pages text-sm md:text-base">San Francisco</li><li class="pages text-sm md:text-base">Ontario</li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-t border-gray-700 pt-8">
+          <p class="md:text-left text-center text-[#BDBDBD] text-base font-normal">Copyright © TechTide. All rights reserved</p>
+        </div>
+      </footer>
+
+
+
+</body>
+
+</html>
